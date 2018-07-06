@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE5EB26820EFE186003942A2 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5EB26720EFE186003942A2 /* DroppablePin.swift */; };
 		AE9C741120E619FE009DA9C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9C741020E619FE009DA9C5 /* AppDelegate.swift */; };
 		AE9C741320E619FE009DA9C5 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9C741220E619FE009DA9C5 /* MapVC.swift */; };
 		AE9C741620E619FE009DA9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9C741420E619FE009DA9C5 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		58E83D6A8830A2D1D26CC751 /* Pods-pixel city.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel city.release.xcconfig"; path = "Pods/Target Support Files/Pods-pixel city/Pods-pixel city.release.xcconfig"; sourceTree = "<group>"; };
+		AE5EB26720EFE186003942A2 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		AE9C740D20E619FE009DA9C5 /* pixel city.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixel city.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9C741020E619FE009DA9C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE9C741220E619FE009DA9C5 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		AE9C742320E61ABE009DA9C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AE5EB26720EFE186003942A2 /* DroppablePin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9C741320E619FE009DA9C5 /* MapVC.swift in Sources */,
+				AE5EB26820EFE186003942A2 /* DroppablePin.swift in Sources */,
 				AE9C741120E619FE009DA9C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
