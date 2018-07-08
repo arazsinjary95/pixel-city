@@ -10,6 +10,7 @@
 		AE5EB26820EFE186003942A2 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5EB26720EFE186003942A2 /* DroppablePin.swift */; };
 		AE5EB26A20F131FF003942A2 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5EB26920F131FF003942A2 /* PhotoCell.swift */; };
 		AE5EB26C20F25B1A003942A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5EB26B20F25B1A003942A2 /* Constants.swift */; };
+		AE5EB26E20F29964003942A2 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5EB26D20F29964003942A2 /* PopVC.swift */; };
 		AE9C741120E619FE009DA9C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9C741020E619FE009DA9C5 /* AppDelegate.swift */; };
 		AE9C741320E619FE009DA9C5 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9C741220E619FE009DA9C5 /* MapVC.swift */; };
 		AE9C741620E619FE009DA9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9C741420E619FE009DA9C5 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		AE5EB26720EFE186003942A2 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		AE5EB26920F131FF003942A2 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		AE5EB26B20F25B1A003942A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AE5EB26D20F29964003942A2 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
 		AE9C740D20E619FE009DA9C5 /* pixel city.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixel city.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9C741020E619FE009DA9C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE9C741220E619FE009DA9C5 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				AE9C741220E619FE009DA9C5 /* MapVC.swift */,
+				AE5EB26D20F29964003942A2 /* PopVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5EB26E20F29964003942A2 /* PopVC.swift in Sources */,
 				AE5EB26C20F25B1A003942A2 /* Constants.swift in Sources */,
 				AE5EB26A20F131FF003942A2 /* PhotoCell.swift in Sources */,
 				AE9C741320E619FE009DA9C5 /* MapVC.swift in Sources */,
